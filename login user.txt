@@ -1,0 +1,11 @@
+login kabid
+bidangruang@gmail.com
+pass:bidangruang
+
+login admin
+adminruang@gmail.com
+pass:adminruang
+
+login staf
+stafruang@gmail.com
+pass:stafruang
