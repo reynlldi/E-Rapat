@@ -19,8 +19,8 @@ class Mail
 		$mail->SMTPSecure = "tls";
 		$mail->Host = "smtp.gmail.com";
 		$mail->Port = 587;
-		$mail->Username = "bintan.litbang@gmail.com";
-		$mail->Password = "uuitlllhwvixquvc";
+		$mail->Username = "Reynalddi6633@gmail.com";
+		$mail->Password = "nceipeitijrobpyx";
 		$mail->From = "roombookingebs@gmail.com";
 		$mail->FromName = "Sistem E-Rapat Bapelitbang";
 		$mail->SMTPOptions = array(
@@ -36,6 +36,7 @@ class Mail
 		$mail->AddAddress($InputEmail, $name);
 		$mail->Subject = $subject;
 		$mail->Body = $message;
+		$mail->addEmbeddedImage(dirname(__FILE__) . '/../images/bintan.png', 'bintan');
 		$mail->AltBody = "This is the body in plain text for non-HTML mail clients";
 
 		$mail->SMTPDebug = 0;

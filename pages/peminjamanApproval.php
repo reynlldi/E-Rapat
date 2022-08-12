@@ -14,23 +14,29 @@
 
         if($objPeminjaman->hasil){			
             $message =  file_get_contents('templateemail.html');  					 
-            $header = "Peminjaman Ruangan Telah Disetujui";
+            $header = '<img src="cid:bintan" width="200"
+            height="130">';
             $body = '<span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #57697e;">
                         <table id="pinjam" >
+                        <tr>
+                            <td colspan="3" align="center">
+                                <h1>Peminjaman Ruangan Disetujui</h1>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="3" align="center">
                                 <h2>Form Penggunaan Ruangan</h2>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td align="right">
                                 Persetujuan
                             </td>
-                            <td align:"left">
+                            <td align="center">
                                 :
                             </td>
-                            <td>
-                                Telah Disetujui
+                            <td align="left">
+                                Disetujui
                             </td>
                         </tr></br>
                     </span>';
