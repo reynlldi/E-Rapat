@@ -50,11 +50,10 @@ require "inc.koneksi.php";
       <i class='bx bx-menu' id="header-toggle"></i>
     </div>
     <div class="dropdown">
-      <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-        aria-expanded="false">
-        <?php echo 'Welcome, <strong>' . $_SESSION["nama"] . '</strong>' ?>
+      <a class="dropdown-toggle text-dark text-decoration-none" href="#" role="button" id="dropdownMenuButton1"
+        data-bs-toggle="dropdown" aria-expanded="true">
+        <?php echo 'Selamat Datang, <strong>' . $_SESSION["nama"] . '</strong>' ?>
       </a>
-
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
         <li><a class="dropdown-item "
             href="dashboardMahasiswa.php?p=profile&UserID=<?php echo $_SESSION["UserID"] ?>"><i
