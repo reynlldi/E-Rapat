@@ -184,12 +184,7 @@
                         </td>
                     </tr>
                     <tr>
-                      <td style="vertical-align: text-top;">
-                          Fasilitas
-                      </td>
-                      <td style="vertical-align: text-top;">
-                          :
-                      </td>
+                    
                       <td style="vertical-align: text-top;">
                           <ol>';
                           // $arrayFasilRuangan = $objFasilRuangan->SelectAllFasilRuanganWithID($IDP);
