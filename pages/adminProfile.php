@@ -117,7 +117,8 @@
                   <form action="" autocomplete="off" method="POST">
 
                     <div class="form-group">
-                      <label for="fullName">Nama Lengkap</label>
+                      <label for="fullName">Username <small class="text-primary"><i>(disarankan menggunakan nama
+                            bidang)</i></small></label>
                       <input type="text" class="form-control" name="fullname" id="fullName"
                         value="<?php echo $objRegister->nama; ?>">
                     </div>
@@ -144,7 +145,7 @@
 
                     <!-- Pekerjaan/Role -->
                     <div class="form-group mt-2">
-                      <label for="pekerjaan">Pekerjaan</label></br>
+                      <label for="pekerjaan">Role</label></br>
                       <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" id="roleDosen" name="pekerjaan" class="custom-control-input" checked
                           value="Admin">
