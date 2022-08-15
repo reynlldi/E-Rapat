@@ -87,7 +87,9 @@
 
                 <!-- Full Name -->
 
-                <div class="form-group"> <label for="fullName">Nama Lengkap</label>
+                <div class="form-group"> <label for="fullName">Username <small class="text-primary"><i>(disarankan
+                        menggunakan nama
+                        bidang)</i></small></label>
                   <input type="text" class="form-control" name="fullname" id="fullName">
                 </div>
 
