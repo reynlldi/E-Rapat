@@ -13,11 +13,11 @@
           <tr class="text-center">
             <th scope="col">Peminjam</th>
             <th scope="col">Ruangan</th>
-            <th scope="col">Acara</th>
-            <th scope="col">Tanggal Pinjam</th>
-            <th scope="col">Tanggal Selesai Acara</th>
-            <th scope="col">Jam Pinjam</th>
-            <th scope="col">Jam Selesai Acara </th>
+            <th scope="col">Rapat</th>
+            <!-- <th scope="col">Tanggal Pinjam</th> -->
+            <th scope="col">Tanggal Rapat</th>
+            <th scope="col">Jam Rapat</th>
+            <th scope="col">Jam Selesai Rapat</th>
             <!-- <th scope="col">Persetujuan</th> -->
           </tr>
         </thead>
@@ -28,7 +28,7 @@
                         $arrayPeminjaman = $objPeminjaman->SelectSepuluhPeminjaman();
 
                         if(count($arrayPeminjaman) == 0){
-                            echo '<tr><td colspan="8" style="text-align: center;"><i class="fas fa-calendar-times"></i>Tidak ada data!</td></tr>';
+                            echo '<tr><td colspan="8" style="text-align: center;"><i class="fas fa-calendar-times"></i> Tidak ada data peminjaman ruangan hari ini!</td></tr>';
                         } else{
                             $objPeminjaman->IDPeminjaman;
                             foreach ($arrayPeminjaman as $dataPeminjaman) {
@@ -36,7 +36,7 @@
                                 echo '<td>'.$dataPeminjaman->user->nama.'</td>';
                                 echo '<td>'.$dataPeminjaman->ruangan->namaRuangan.'</td>';
                                 echo '<td>'.$dataPeminjaman->keperluan.'</td>';
-                                echo '<td>'.$dataPeminjaman->tglPinjam.'</td>';
+                                // echo '<td>'.$dataPeminjaman->tglPinjam.'</td>';
                                 echo '<td>'.$dataPeminjaman->tglSelesai.'</td>';
                                 echo '<td>'.$dataPeminjaman->jamPinjam.'</td>';
                                 echo '<td>'.$dataPeminjaman->jamSelesai.'</td>';
