@@ -151,7 +151,7 @@
           <marquee direction="left" scrolldelay="90">
             <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
               <tr valign="middle">
-                <h1 style="color: #ffffff;" align="middle">Website E-Rapat Bapelitbang Kabupaten Bintan</h1>
+                <h1 style="color: #ffffff;" align="center">Website E-Rapat Bapelitbang Kabupaten Bintan</h1>
               </tr>
             </table>
           </marquee>
