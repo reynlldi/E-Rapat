@@ -59,7 +59,7 @@
             <!-- <h2 class="text-center">E-Rapat</h2> -->
             <form action="" method="post">
 
-              <div class="form-group"> <label for="email"> Alamat Email</label>
+              <div class="form-group"> <label for="email">Alamat Email</label>
                 <input type="email" class="form-control" name="email" id="email" required>
               </div>
 
