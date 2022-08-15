@@ -71,7 +71,8 @@
 
                     <!-- Full Name -->
                     <div class="form-group">
-                      <label for="fullName">Nama Lengkap</label>
+                      <label for="fullName">Username <small class="text-primary"><i>(disarankan menggunakan nama
+                            bidang)</i></small></label>
                       <input type="text" class="form-control" name="fullname" id="fullName"
                         value="<?php echo $objRegister->nama; ?>">
                     </div>
@@ -98,7 +99,7 @@
 
                     <!-- Pekerjaan/Role -->
                     <div class="form-group mt-2" role="tab-list">
-                      <label for="pekerjaan">Pekerjaan</label></br>
+                      <label for="pekerjaan">Role</label></br>
                       <?php
                                             $pekerjaan = array("Staf");
                                             foreach($pekerjaan as $role) {	
@@ -149,7 +150,7 @@
 
                     <!-- Prodi -->
                     <div class="form-group mt-2">
-                      <label for="prodi">Prodi</label>
+                      <label for="prodi">Bidang</label>
                       <select name="prodi" class="form-control" id="prodi">
                         <?php
                                             foreach($prodiList as $prodi){
